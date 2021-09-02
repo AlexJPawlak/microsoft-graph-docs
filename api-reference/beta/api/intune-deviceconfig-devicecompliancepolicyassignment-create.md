@@ -32,7 +32,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assignments
+POST /deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assign
 ```
 
 ## Request headers
@@ -63,7 +63,7 @@ If successful, this method returns a `201 Created` response code and a [deviceCo
 ### Request
 Here is an example of the request.
 ``` http
-POST https://graph.microsoft.com/beta/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assignments
+POST https://graph.microsoft.com/beta/deviceManagement/deviceCompliancePolicies/{deviceCompliancePolicyId}/assign
 Content-type: application/json
 Content-length: 452
 
